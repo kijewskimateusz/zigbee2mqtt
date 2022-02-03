@@ -1,0 +1,14 @@
+homeassistant: true
+permit_join: true
+frontend: true
+mqtt:
+  base_topic: zigbee2mqtt
+  server: mqtt://192.168.88.13:1883
+  client_id: zigbee2mqtt
+  include_device_information: true
+serial:
+  port: /dev/ttyACM0
+  disable_led: true
+devices:
+  '0x2c1165fffeb94f8c':
+    friendly_name: SalonZarowka
