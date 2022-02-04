@@ -1,0 +1,14 @@
+{
+    "0x2c1165fffeb94f8c": {
+        "color_mode": "color_temp",
+        "update": {
+            "state": "idle"
+        },
+        "update_available": false,
+        "color_temp": 454,
+        "color_temp_startup": 454,
+        "power_on_behavior": "previous",
+        "state": "ON",
+        "brightness": 95
+    }
+}
