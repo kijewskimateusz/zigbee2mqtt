@@ -1,7 +1,7 @@
 version: '3.8'
 services:
   zigbee2mqtt:
-    container_name: ${ENV}_zigbee2mqtt
+    container_name: ${ENV}zigbee2mqtt
     image: koenkk/zigbee2mqtt
     restart: unless-stopped
     volumes:
