@@ -10,5 +10,16 @@
         "power_on_behavior": "previous",
         "state": "ON",
         "brightness": 95
+    },
+    "0xa4c138d48e6ecdfa": {
+        "state": "OFF",
+        "power_on_behavior": "on",
+        "switch_type": "toggle"
+    },
+    "0xa4c1385c5ecef42e": {
+        "state_l1": "ON",
+        "brightness_l1": 147,
+        "state_l2": "OFF",
+        "brightness_l2": 255
     }
 }

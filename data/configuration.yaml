@@ -1,5 +1,5 @@
 homeassistant: true
-permit_join: true
+permit_join: false
 frontend: true
 mqtt:
   base_topic: zigbee2mqtt
@@ -12,3 +12,8 @@ serial:
 devices:
   '0x2c1165fffeb94f8c':
     friendly_name: SalonZarowka
+  '0xa4c138d48e6ecdfa':
+    friendly_name: Ogrzewanie
+  '0xa4c1385c5ecef42e':
+    friendly_name: Sypialnia swiatlo
+    transition: 2
