@@ -10,7 +10,6 @@ FRONTEND_PORT=8080
 ```
 
 Docker-compose command: 
-
 ```commandline
 docker-compose -p zigbee2mqtt -f docker-compose.yml -f example.docker-compose.dev.yml up -d
 ```
