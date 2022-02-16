@@ -1,3 +1,9 @@
-example.env
-.env
+#ignore logging
 /data/log/
+
+#ignore .env file
+.env
+
+#ignore personal docker-compose particles
+docker-compose.dev.yml
+docker-compsoe.prod.yml
