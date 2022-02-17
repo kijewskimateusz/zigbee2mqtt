@@ -6,4 +6,4 @@
 
 #ignore personal docker-compose particles
 docker-compose.dev.yml
-docker-compsoe.prod.yml
+docker-compose.prod.yml
