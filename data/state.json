@@ -13,13 +13,13 @@
     },
     "0xa4c138d48e6ecdfa": {
         "state": "OFF",
-        "power_on_behavior": "on",
-        "switch_type": "toggle"
+        "power_on_behavior": "previous",
+        "switch_type": "state"
     },
     "0xa4c1385c5ecef42e": {
-        "state_l1": "ON",
-        "brightness_l1": 147,
+        "state_l1": "OFF",
+        "brightness_l1": 136,
         "state_l2": "OFF",
-        "brightness_l2": 255
+        "brightness_l2": 0
     }
 }

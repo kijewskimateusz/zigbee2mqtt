@@ -3,17 +3,18 @@ permit_join: false
 frontend: true
 mqtt:
   base_topic: zigbee2mqtt
-  server: mqtt://192.168.88.13:1883
   client_id: zigbee2mqtt
   include_device_information: true
+  server: mqtt://192.168.88.13:1883\
+  user: zigbee2mqtt
+  password: zigbee2mqtt
 serial:
   port: /dev/ttyACM0
   disable_led: true
 devices:
   '0x2c1165fffeb94f8c':
-    friendly_name: SalonZarowka
+    friendly_name: Salon Żarówka
   '0xa4c138d48e6ecdfa':
-    friendly_name: Ogrzewanie
+    friendly_name: Centralne Ogrzewanie
   '0xa4c1385c5ecef42e':
-    friendly_name: Sypialnia swiatlo
-    transition: 2
+    friendly_name: Sypialnia oświetlenie
